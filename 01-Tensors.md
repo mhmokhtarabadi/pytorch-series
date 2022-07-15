@@ -10,6 +10,7 @@ hHre are some ways to define tensors:
 ```python
 x = torch.empty(2, 3)   # creates an empty tensor
 x = torch.rand(2, 3)    # creates a tensor with random values between 0-1
+x = torch.randn(2, 3)   # creates a tensor with random numbers drawn from the standard normal distribution (mean value is 0, variance is 1, that is, Gaussian white noise)
 x = torch.ones(2, 3)    # creates tensor with one values
 x = torch.zeros(2, 3)   # creates tensor with zero values
 x = torch.tensor([[5.2, 5.3], [1.65, 32.16]])   # creates tensor from an array
